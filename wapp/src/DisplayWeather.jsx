@@ -15,9 +15,9 @@ const DisplayWeather = ({weatherData}) => {
             </div>
             <div className='flex'>
               <ul className=' list-none flex gap-4'>
-                <li className='text-xl w-50 h-14 bg-lime-200 text-center p-3 rounded-md hover:bg-white' >Humidity: {weatherData.main.humidity}.</li>
-                <li className='text-xl w-50 h-14 bg-lime-200 text-center p-3 rounded-md hover:bg-white'>Wind Speed: {weatherData.wind.speed}Km/h. </li>
-                <li className='text-xl w-50 h-14 bg-lime-200 text-center p-3 rounded-md hover:bg-white'>Weather Type: {weatherData.weather[0].main}.</li>
+                <li className='text-xl w-50 h-auto bg-lime-200 text-center p-3 rounded-md hover:bg-white' >Humidity: {weatherData.main.humidity}.</li>
+                <li className='text-xl w-50 h-auto bg-lime-200 text-center p-3 rounded-md hover:bg-white'>Wind Speed: {weatherData.wind.speed}Km/h. </li>
+                <li className='text-xl w-50 h-auto bg-lime-200 text-center p-3 rounded-md hover:bg-white'>Weather Type: {weatherData.weather[0].main}.</li>
               </ul>
             </div>
           </div>

@@ -29,7 +29,7 @@ const From = () => {
       }
   return (
     <>
-        <div className='flex items-center gap-4'>
+        <div className='flex items-center sm:gap-2 md:gap-3 xl:gap-4 overflow-hidden'>
         <form onSubmit={CityName} className='flex items-center justify-center gap-4'>
           <div className='flex items-center justify-center border-2 p-2 rounded-md'>
             <input  
@@ -43,7 +43,7 @@ const From = () => {
             className= 'rounded focus:outline-none'></input>
             <img src='search.svg' alt='Location Icon' className='w-8 h-8' />
           </div>
-          <button type='submit' className='border-2 p-3 rounded-md bg-blue-400 text-center font-semibold hover:bg-lime-200'>Get Weather</button>
+          <button type='submit' className='border-2 sm:p-1 md:p-2 xl:p-3 rounded-md bg-blue-400 text-center sm:font-normal md:font-medium xl:font-semibold hover:bg-lime-200'>Get Weather</button>
         </form>
       </div>
     </>
